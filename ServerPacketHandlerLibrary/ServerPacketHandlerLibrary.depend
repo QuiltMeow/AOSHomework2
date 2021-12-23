@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1639015125 source:/home/quilt/Homework/ServerPacketHandlerLibrary/dllmain.cpp
+	"PacketLittleEndianWriter.h"
+	"WindowsCompatible.h"
+	"SessionLib.h"
+	<iostream>
+	<fstream>
+	<filesystem>
+	"Session.h"
+	<random>
+	<algorithm>
+
+1639015145 /home/quilt/Homework/ServerPacketHandlerLibrary/PacketLittleEndianWriter.h
+	<iomanip>
+	<fstream>
+	<sstream>
+	<vector>
+
+1639014783 /home/quilt/Homework/ServerPacketHandlerLibrary/WindowsCompatible.h
+	<netinet/in.h>
+
+1639014776 /home/quilt/Homework/ServerPacketHandlerLibrary/SessionLib.h
+	"PacketLittleEndianWriter.h"
+	"Session.h"
+	"WindowsCompatible.h"
+	<map>
+	<mutex>
+
+1639014349 /home/quilt/Homework/ServerPacketHandlerLibrary/Session.h
+	<arpa/inet.h>
+	<atomic>
+	<mutex>
+	<string>
+	"PacketLittleEndianReader.h"
+	"PacketLittleEndianWriter.h"
+	"WindowsCompatible.h"
+
+1639014215 /home/quilt/Homework/ServerPacketHandlerLibrary/PacketLittleEndianReader.h
+	<iomanip>
+	<fstream>
+	<sstream>
+	<string.h>
+
+1639015125 source:/home/quilt/Homework/ServerPacketHandlerLibrary/main.cpp
+	"PacketLittleEndianWriter.h"
+	"WindowsCompatible.h"
+	"SessionLib.h"
+	<iostream>
+	<fstream>
+	<filesystem>
+	"Session.h"
+	<random>
+	<algorithm>
+
+1639611386 source:/home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/main.cpp
+	"PacketLittleEndianWriter.h"
+	"WindowsCompatible.h"
+	"SessionLib.h"
+	"Session.h"
+	<iostream>
+	"CapabilityHandler.h"
+	"Client.h"
+
+1639342070 /home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/PacketLittleEndianWriter.h
+	<iomanip>
+	<fstream>
+	<sstream>
+	<vector>
+
+1639342165 /home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/WindowsCompatible.h
+	<netinet/in.h>
+
+1639342205 /home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/SessionLib.h
+	"PacketLittleEndianWriter.h"
+	"Session.h"
+	"WindowsCompatible.h"
+	<map>
+	<mutex>
+
+1639342270 /home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/Session.h
+	<arpa/inet.h>
+	<atomic>
+	<mutex>
+	<string>
+	"PacketLittleEndianReader.h"
+	"PacketLittleEndianWriter.h"
+	"WindowsCompatible.h"
+
+1639342040 /home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/PacketLittleEndianReader.h
+	<iomanip>
+	<fstream>
+	<sstream>
+	<string.h>
+
+1639613237 /home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/CapabilityHandler.h
+	<fstream>
+	<map>
+	<sstream>
+	<mutex>
+	<shared_mutex>
+	<sys/stat.h>
+	<algorithm>
+
+1639611438 /home/quilt/Homework/AOSHomework/ServerPacketHandlerLibrary/Client.h
+

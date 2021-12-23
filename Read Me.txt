@@ -1,0 +1,10 @@
+使用者名稱列表
+Quilt (群組 AOSStudent)
+Neko (群組 AOSStudent)
+Meow (群組 AOSStudent)
+
+Nya (群組 CSEStudent)
+Cat (群組 CSEStudent)
+Kitten (群組 CSEStudent)
+
+輸入無效使用者名稱將直接被服務端斷線
