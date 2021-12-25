@@ -185,6 +185,10 @@ LPVOID receiveThread(LPVOID lpParameter) {
     SOCKET client = *parameterPointer;
     delete parameterPointer;
 
+    socketMutex.lock();
+    Session* session = sessionMap[client];
+    socketMutex.unlock();
+
     char buffer[BUFFER_SIZE];
     while (run) {
         int receiveLength = recv(client, buffer, sizeof(buffer), 0);
@@ -193,10 +197,10 @@ LPVOID receiveThread(LPVOID lpParameter) {
             break;
         }
 
-        Session* session = sessionMap[client];
         session->receive(buffer, receiveLength);
         if (session->isDisconnect()) {
             removeClient(client);
+            break;
         }
     }
     return EXIT_SUCCESS;
